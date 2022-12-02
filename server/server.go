@@ -253,7 +253,7 @@ func main() {
 	fmt.Println("Pokemon Service Started")
 	collection = client.Database("pokemondb").Collection("pokemon")
 
-	lis, err := net.Listen("tcp", "0.0.0.0:4042")
+	lis, err := net.Listen("tcp", "0.0.0.0:4047")
 	if err != nil {
 		log.Fatalf("Failed to listen: %v", err)
 	}

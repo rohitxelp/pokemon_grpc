@@ -30,7 +30,7 @@ func main() {
 
 	opts := grpc.WithInsecure()
 
-	cc, err := grpc.Dial("localhost:4042", opts)
+	cc, err := grpc.Dial("localhost:4047", opts)
 	if err != nil {
 		log.Fatalf("could not connect: %v", err)
 	}
